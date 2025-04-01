@@ -1,3 +1,5 @@
+![Banner Image](https://github.com/premkambale/javascript-dsa-guide/blob/main/javascript-dsa-guide.png)
+
 ## 1️⃣ Big-O Notation
 
 ### 1.1 What does better code mean?
