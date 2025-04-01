@@ -104,3 +104,49 @@ Logarithmic complexity **O(log n)** means that as the input size **n** increases
 - If we search for a number in a **sorted array** of **1 million elements**:
   - **Linear search (O(n))** → **1 million steps** 😨
   - **Binary search (O(log n))** → **Only ~20 steps!** 🚀
+
+
+
+
+  # Understanding Arrays and Objects through Big-O
+
+## Big-O of Objects
+
+- **Insertion**: O(1)
+- **Deletion**: O(1)
+- **Accessing**: O(1)
+- **Searching**: O(n)
+
+### Big-O of Object Methods
+- `Object.keys()` - O(N)
+- `Object.values()` - O(N)
+- `Object.entries()` - O(N)
+- `Object.hasOwnProperty()` - O(N)
+
+---
+
+## Big-O of Arrays
+
+### Insertion: It depends
+- **Best Case (O(1))**: If inserting at the end of a dynamic array (assuming it has extra capacity), it takes constant time.
+- **Worst Case (O(n))**: If inserting at the beginning or middle, all subsequent elements must shift to the right, leading to O(n) complexity.
+
+### Deletion: It depends
+- **Best Case (O(1))**: If deleting the last element, no shifting is needed.
+- **Worst Case (O(n))**: If deleting an element from the beginning or middle, all subsequent elements must shift to the left, making it O(n).
+
+- **Accessing**: O(1)
+- **Searching**: O(n)
+
+**Note:** `push()` & `pop()` are always faster than `shift()` & `unshift()`.
+
+### Big-O of Array Methods
+- `push()` - O(1)
+- `pop()` - O(1)
+- `shift()` - O(n)
+- `unshift()` - O(n)
+- `concat()` - O(1)
+- `slice()` - O(n)
+- `splice()` - O(n)
+- `sort()` - O(n * log n)
+- `forEach()`, `map()`, `filter()`, `reduce()` - O(n)
