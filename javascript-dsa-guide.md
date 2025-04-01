@@ -1,4 +1,164 @@
-![Banner Image](https://github.com/premkambale/javascript-dsa-guide/blob/main/javascript-dsa-guide.png)
+ ![Banner Image](https://github.com/premkambale/javascript-dsa-guide/blob/main/javascript-dsa-guide.png)
+
+# DSA Roadmap for JavaScript (2025 Edition)
+
+## 1. Master JavaScript Fundamentals
+
+### Topics to Cover:
+- Variables (`let`, `const`, `var`)
+- Data Types (Primitive & Reference)
+- Loops (`for`, `while`, `for...in`, `for...of`)
+- Functions (Declaration, Expression, Arrow)
+- Array Methods (`map`, `filter`, `reduce`, etc.)
+- Objects & JSON
+- ES6+ Features (Destructuring, Spread, Rest)
+- `this`, Closures, Scope
+- Promises & `async/await`
+
+### Resources:
+- [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Namaste JavaScript (YouTube)](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
+
+---
+
+## 2. Time and Space Complexity
+
+### Topics to Cover:
+- Big-O Notation
+- Best, Average, Worst Cases
+- Analyzing Loops
+
+### Resources:
+- [Big-O Cheatsheet](https://www.bigocheatsheet.com/)
+- [Time Complexity Explained (YouTube)](https://www.youtube.com/watch?v=5wtnKulcquA)
+
+---
+
+## 3. Arrays & Strings
+
+### Topics to Cover:
+- Traversal, Insertion, Sorting
+- Two Pointers, Sliding Window
+
+### Suggested Problems:
+- LeetCode Array & String Problems
+
+---
+
+## 4. Recursion
+
+### Topics to Cover:
+- Recursive Functions
+- Base Case & Recursive Case
+- Recursion Tree
+
+### Suggested Problems:
+- Fibonacci, Factorial, Reverse String
+
+---
+
+## 5. Linked Lists
+
+### Topics to Cover:
+- Singly/Doubly Linked List
+- Insertion/Deletion/Reversal
+- Cycle Detection
+
+### Suggested Problems:
+- LeetCode Linked List
+
+---
+
+## 6. Stack & Queue
+
+### Topics to Cover:
+- Stack (LIFO), Queue (FIFO)
+- Min Stack, Queue using Stack
+
+### Suggested Problems:
+- Valid Parentheses, Min Stack
+
+---
+
+## 7. Hashing & HashMap
+
+### Topics to Cover:
+- Hash Table Basics
+- Frequency Count
+
+### Suggested Problems:
+- Two Sum, Group Anagrams
+
+---
+
+## 8. Trees (Binary Tree, BST)
+
+### Topics to Cover:
+- Inorder, Preorder, Postorder
+- BFS, DFS, LCA
+
+### Suggested Problems:
+- Maximum Depth, Invert Tree
+
+---
+
+## 9. Greedy Algorithms
+
+### Topics to Cover:
+- Greedy Choice Property
+- Activity Selection, Huffman Encoding
+
+### Resources:
+- [GeeksForGeeks Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+
+---
+
+## 10. Dynamic Programming
+
+### Topics to Cover:
+- Memoization & Tabulation
+- Knapsack, LCS, Coin Change
+
+### Resources:
+- [Aditya Verma DP Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go)
+
+---
+
+## 11. Graphs
+
+### Topics to Cover:
+- Adjacency List/Matrix
+- BFS, DFS, Dijkstra, Topological Sort
+
+### Resources:
+- [Take U Forward Graph Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw)
+
+---
+
+## 12. Backtracking
+
+### Topics to Cover:
+- Backtracking Framework
+- Permutations, N-Queens, Sudoku
+
+### Resources:
+- [CodeWithHarry Backtracking](https://www.codewithharry.com/)
+
+---
+
+## 13. Practice & Contests
+
+### Best Platforms:
+- [LeetCode](https://leetcode.com/)
+- [GeeksForGeeks](https://www.geeksforgeeks.org/)
+- [Codeforces](https://codeforces.com/)
+- [HackerRank](https://www.hackerrank.com/)
+
+### Final Step:
+- Participate in Weekly Contests
+- Mock Interviews on [Interviewing.io](https://interviewing.io/)
+
+---
 
 ## 1️⃣ Big-O Notation
 
