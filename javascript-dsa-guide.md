@@ -107,10 +107,11 @@ Logarithmic complexity **O(log n)** means that as the input size **n** increases
 
 
 
+---
 
-  # Understanding Arrays and Objects through Big-O
+ # Understanding Arrays and Objects through Big-O
 
-## Big-O of Objects
+## 1. Big-O of Objects
 
 - **Insertion**: O(1)
 - **Deletion**: O(1)
@@ -123,15 +124,16 @@ Logarithmic complexity **O(log n)** means that as the input size **n** increases
 - `Object.entries()` - O(N)
 - `Object.hasOwnProperty()` - O(N)
 
----
 
-## Big-O of Arrays
 
-### Insertion: It depends
+## 2. Big-O of Arrays
+
+
+### 1.Insertion: It depends
 - **Best Case (O(1))**: If inserting at the end of a dynamic array (assuming it has extra capacity), it takes constant time.
 - **Worst Case (O(n))**: If inserting at the beginning or middle, all subsequent elements must shift to the right, leading to O(n) complexity.
 
-### Deletion: It depends
+### 2.Deletion: It depends
 - **Best Case (O(1))**: If deleting the last element, no shifting is needed.
 - **Worst Case (O(n))**: If deleting an element from the beginning or middle, all subsequent elements must shift to the left, making it O(n).
 
