@@ -1,229 +1,238 @@
- ![Social Preview](https://github.com/premkambale/javascript-dsa-guide/blob/main/javascript-dsa-guide.png)
+![Social Preview](https://github.com/premkambale/javascript-dsa-guide/blob/main/javascript-dsa-guide.png)
 
-# DSA Roadmap for JavaScript (2025 Edition)
+# 📘 DSA Roadmap for JavaScript (2025 Edition)
 
-## 1. Master JavaScript Fundamentals
+---
 
-### Topics to Cover:
-- Variables (`let`, `const`, `var`)
-- Data Types (Primitive & Reference)
-- Loops (`for`, `while`, `for...in`, `for...of`)
-- Functions (Declaration, Expression, Arrow)
-- Array Methods (`map`, `filter`, `reduce`, etc.)
-- Objects & JSON
-- ES6+ Features (Destructuring, Spread, Rest)
-- `this`, Closures, Scope
-- Promises & `async/await`
+## 🧠 1. Master JavaScript Fundamentals
 
-### Resources:
+### 📚 Topics to Cover:
+- 🔹 Variables (`let`, `const`, `var`)
+- 🔹 Data Types (Primitive & Reference)
+- 🔹 Loops (`for`, `while`, `for...in`, `for...of`)
+- 🔹 Functions (Declaration, Expression, Arrow)
+- 🔹 Array Methods (`map`, `filter`, `reduce`, etc.)
+- 🔹 Objects & JSON
+- 🔹 ES6+ Features (Destructuring, Spread, Rest)
+- 🔹 `this`, Closures, Scope
+- 🔹 Promises & `async/await`
+
+### 🔗 Resources:
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Namaste JavaScript (YouTube)](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
 
 ---
 
-## 2. Time and Space Complexity
+## ⏱️ 2. Time and Space Complexity
 
-### Topics to Cover:
-- Big-O Notation
-- Best, Average, Worst Cases
-- Analyzing Loops
+### 📚 Topics to Cover:
+- 🧮 Big-O Notation
+- 🧮 Best, Average, Worst Cases
+- 🧮 Analyzing Loops
 
-### Resources:
+### 🔗 Resources:
 - [Big-O Cheatsheet](https://www.bigocheatsheet.com/)
 - [Time Complexity Explained (YouTube)](https://www.youtube.com/watch?v=5wtnKulcquA)
 
 ---
 
-## 3. Arrays & Strings
+## 📐 3. Arrays & Strings
 
-### Topics to Cover:
-- Traversal, Insertion, Sorting
-- Two Pointers, Sliding Window
+### 📚 Topics to Cover:
+- 📌 Traversal, Insertion, Sorting
+- 📌 Two Pointers, Sliding Window
 
-### Suggested Problems:
+### 🧪 Suggested Problems:
 - LeetCode Array & String Problems
 
 ---
 
-## 4. Recursion
+## 🔁 4. Recursion
 
-### Topics to Cover:
-- Recursive Functions
-- Base Case & Recursive Case
-- Recursion Tree
+### 📚 Topics to Cover:
+- 🔁 Recursive Functions
+- 📌 Base Case & Recursive Case
+- 🌲 Recursion Tree
 
-### Suggested Problems:
+### 🧪 Suggested Problems:
 - Fibonacci, Factorial, Reverse String
 
 ---
 
-## 5. Linked Lists
+## 🔗 5. Linked Lists
 
-### Topics to Cover:
-- Singly/Doubly Linked List
-- Insertion/Deletion/Reversal
-- Cycle Detection
+### 📚 Topics to Cover:
+- 🔗 Singly/Doubly Linked List
+- ➕ Insertion/Deletion/Reversal
+- 🔄 Cycle Detection
 
-### Suggested Problems:
+### 🧪 Suggested Problems:
 - LeetCode Linked List
 
 ---
 
-## 6. Stack & Queue
+## 🥞 6. Stack & Queue
 
-### Topics to Cover:
-- Stack (LIFO), Queue (FIFO)
-- Min Stack, Queue using Stack
+### 📚 Topics to Cover:
+- 🥞 Stack (LIFO), Queue (FIFO)
+- 📉 Min Stack, Queue using Stack
 
-### Suggested Problems:
+### 🧪 Suggested Problems:
 - Valid Parentheses, Min Stack
 
 ---
 
-## 7. Hashing & HashMap
+## #️⃣ 7. Hashing & HashMap
 
-### Topics to Cover:
-- Hash Table Basics
-- Frequency Count
+### 📚 Topics to Cover:
+- 🧠 Hash Table Basics
+- 🔢 Frequency Count
 
-### Suggested Problems:
+### 🧪 Suggested Problems:
 - Two Sum, Group Anagrams
 
 ---
 
-## 8. Trees (Binary Tree, BST)
+## 🌳 8. Trees (Binary Tree, BST)
 
-### Topics to Cover:
-- Inorder, Preorder, Postorder
-- BFS, DFS, LCA
+### 📚 Topics to Cover:
+- 🌿 Inorder, Preorder, Postorder
+- 🔄 BFS, DFS, LCA
 
-### Suggested Problems:
+### 🧪 Suggested Problems:
 - Maximum Depth, Invert Tree
 
 ---
 
-## 9. Greedy Algorithms
+## 💡 9. Greedy Algorithms
 
-### Topics to Cover:
-- Greedy Choice Property
-- Activity Selection, Huffman Encoding
+### 📚 Topics to Cover:
+- ✨ Greedy Choice Property
+- 🕒 Activity Selection, Huffman Encoding
 
-### Resources:
+### 🔗 Resources:
 - [GeeksForGeeks Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
 
 ---
 
-## 10. Dynamic Programming
+## 📦 10. Dynamic Programming
 
-### Topics to Cover:
-- Memoization & Tabulation
-- Knapsack, LCS, Coin Change
+### 📚 Topics to Cover:
+- 🔁 Memoization & Tabulation
+- 🧳 Knapsack, LCS, Coin Change
 
-### Resources:
+### 🔗 Resources:
 - [Aditya Verma DP Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go)
 
 ---
 
-## 11. Graphs
+## 🌐 11. Graphs
 
-### Topics to Cover:
-- Adjacency List/Matrix
-- BFS, DFS, Dijkstra, Topological Sort
+### 📚 Topics to Cover:
+- 🔌 Adjacency List/Matrix
+- 🔁 BFS, DFS, Dijkstra, Topological Sort
 
-### Resources:
+### 🔗 Resources:
 - [Take U Forward Graph Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw)
 
 ---
 
-## 12. Backtracking
+## 🧩 12. Backtracking
 
-### Topics to Cover:
-- Backtracking Framework
-- Permutations, N-Queens, Sudoku
+### 📚 Topics to Cover:
+- 🔁 Backtracking Framework
+- 🧩 Permutations, N-Queens, Sudoku
 
-### Resources:
+### 🔗 Resources:
 - [CodeWithHarry Backtracking](https://www.codewithharry.com/)
 
 ---
 
-## 13. Practice & Contests
+## 🏁 13. Practice & Contests
 
-### Best Platforms:
+### 🧠 Best Platforms:
 - [LeetCode](https://leetcode.com/)
 - [GeeksForGeeks](https://www.geeksforgeeks.org/)
 - [Codeforces](https://codeforces.com/)
 - [HackerRank](https://www.hackerrank.com/)
 
-### Final Step:
+### 🎯 Final Step:
 - Participate in Weekly Contests
 - Mock Interviews on [Interviewing.io](https://interviewing.io/)
 
 ---
-# Javascript DSA Guide
----
-## 1️⃣ Big-O Notation
 
-### 1.1 What does better code mean?
-1. Faster execution time
-2. Less memory usage
-3. More readable and maintainable
+# 📏 Javascript DSA Guide: Big-O Notation & Analysis
 
 ---
 
-### 1.2 What is Big-O Notation?
-Big-O Notation is the mathematical concept used in computer science to describe the **efficiency or performance of an algorithm**.
+## 🔢 1️⃣ Big-O Notation
 
-### 1.3 Why Use Big-O Notation?
-1. To compare different algorithms based on efficiency.
-2. To understand how an algorithm performs as input size increases.
-3. Helps in selecting the best approach for solving problems.
-
-We say that an algorithm is **O(f(n))**, if the number of simple operations is less than a constant times **f(n)** as **n** increases.
+### 💡 What does better code mean?
+1. 🚀 Faster execution time  
+2. 💾 Less memory usage  
+3. ✨ More readable and maintainable  
 
 ---
 
-### 1.4 Common Big-O Complexities (From Best to Worst)
-
-| #  | Big-O Notation | Name                 | Performance (as *n* grows) |
-|----|---------------|---------------------|---------------------------|
-| 1️⃣  | **O(1)**      | Constant Time       | Fastest (doesn’t depend on *n*) |
-| 2️⃣  | **O(log n)**  | Logarithmic Time    | Very efficient |
-| 3️⃣  | **O(n)**      | Linear Time         | Grows proportionally with input |
-| 4️⃣  | **O(n log n)**| Linearithmic Time   | Common in sorting algorithms |
-| 5️⃣  | **O(n²)**     | Quadratic Time      | Slow for large inputs |
-| 6️⃣  | **O(2ⁿ)**     | Exponential Time    | Extremely slow |
-| 7️⃣  | **O(n!)**     | Factorial Time      | Worst complexity |
+### ℹ️ What is Big-O Notation?
+Big-O Notation is a mathematical concept used in computer science to describe the **efficiency or performance of an algorithm**.
 
 ---
 
-### 1.5 Big-O Shorthand Rules
-1. Arithmetic operations are **O(1)** (constant time).
-2. Variable declaration is **O(1)**.
-3. Accessing an element from an array or object is **O(1)**.
+### ❓ Why Use Big-O Notation?
+- ✅ To compare different algorithms  
+- ✅ To understand performance as input size increases  
+- ✅ To select the best approach for a problem  
+
+We say an algorithm is **O(f(n))**, if the number of simple operations is less than a constant times **f(n)** as **n** increases.
 
 ---
 
-## 2️⃣ Time Complexity
+### 📊 Common Big-O Complexities
 
-### 2.1 What is Time Complexity?
-Time complexity is a measure of how the runtime of an algorithm increases as the size of the input (n) grows.
-It helps us analyze the efficiency of an algorithm and predict its performance for large inputs.
+| #️⃣ | Big-O        | Name              | Performance as *n* grows        |
+|-----|--------------|-------------------|----------------------------------|
+| 1️⃣ | O(1)         | Constant Time     | 🔥 Fastest                       |
+| 2️⃣ | O(log n)     | Logarithmic Time  | ⚡ Very Efficient                |
+| 3️⃣ | O(n)         | Linear Time       | 📈 Proportional Growth          |
+| 4️⃣ | O(n log n)   | Linearithmic Time | 📊 Efficient Sorting             |
+| 5️⃣ | O(n²)        | Quadratic Time    | 🐌 Slower for large inputs       |
+| 6️⃣ | O(2ⁿ)        | Exponential Time  | 🧨 Extremely Slow                |
+| 7️⃣ | O(n!)        | Factorial Time    | ❌ Worst Complexity              |
 
 ---
 
-## 3️⃣ Space Complexity
+### 🧾 Big-O Shorthand Rules
+- Arithmetic ops → O(1)  
+- Variable declaration → O(1)  
+- Array/Object access → O(1)  
 
-### 3.1 Formula:
-**s(n) = O(f(n))**
+---
 
-### 3.2 What is Space Complexity?
-Space complexity is the amount of memory an algorithm needs in terms of input size, i.e., **n**.
+## ⏱️ 2️⃣ Time Complexity
 
-- **Boolean, undefined, null, and numbers** take constant space in JavaScript.
-- **Strings and arrays** depend on their length.
-- **Objects** depend on the number of keys.
+Time complexity = how runtime grows with input size `n`.
 
-### 3.3 Example 1: Constant Space Complexity **O(1)**
+---
+
+## 💾 3️⃣ Space Complexity
+
+### 📏 Formula:  
+`s(n) = O(f(n))`
+
+---
+
+### 🧠 What is Space Complexity?
+Space used by an algorithm based on input size `n`.
+
+- Booleans, `null`, numbers → O(1)  
+- Strings, arrays → Depends on length  
+- Objects → Based on number of keys  
+
+---
+
+### 🧪 Example: Constant Space `O(1)`
 ```js
 const addNums = (arr) => {
   let total = 0;
@@ -232,6 +241,7 @@ const addNums = (arr) => {
   }
   return total;
 };
+
 console.log(addNums([1, 2])); // Output: 3
 ```
 - The variable `total` has a constant space because numbers take constant space in JavaScript.
