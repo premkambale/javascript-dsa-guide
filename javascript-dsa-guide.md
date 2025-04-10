@@ -165,7 +165,11 @@
 # 📏 Javascript DSA Guide: Big-O Notation & Analysis
 
 ---
+## ❓ What is a Data Structure?
+A Data Structure is a particular way of organizing, managing, and storing data so that it can be accessed and modified efficiently.
 
+🧠 In simple terms: Data structures help us solve problems faster and more efficiently by choosing the right tool (structure) for the job.
+---
 ## 🔢 1️⃣ Big-O Notation
 
 ### 💡 What does better code mean?
