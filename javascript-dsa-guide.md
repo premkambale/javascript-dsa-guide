@@ -286,7 +286,7 @@ Logarithmic complexity **O(log n)** means that as the input size **n** increases
 
 ---
 
- # Understanding Arrays and Objects through Big-O
+ # 5️⃣ Understanding Arrays and Objects through Big-O
 
 ## 1. Big-O of Objects
 
