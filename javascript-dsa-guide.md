@@ -330,7 +330,7 @@ Logarithmic complexity **O(log n)** means that as the input size **n** increases
 - `sort()` - O(n * log n)
 - `forEach()`, `map()`, `filter()`, `reduce()` - O(n)
 ---
-# 6 Problem Solving Approach
+# 6️⃣ Problem Solving Approach
 
 ## 1. Understand the Problem
 - Can I restate the problem in my own words?
@@ -375,3 +375,4 @@ function charCount(str) {
 
 ## 5. Solve
 You did it!
+0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣
