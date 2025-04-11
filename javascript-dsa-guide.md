@@ -329,3 +329,49 @@ Logarithmic complexity **O(log n)** means that as the input size **n** increases
 - `splice()` - O(n)
 - `sort()` - O(n * log n)
 - `forEach()`, `map()`, `filter()`, `reduce()` - O(n)
+---
+# 6 Problem Solving Approach
+
+## 1. Understand the Problem
+- Can I restate the problem in my own words?
+- What are the inputs that go into the problem?
+- What is the output that should come from the solution for the problem?
+- Do I have enough information to solve the problem?
+- How should I label the important pieces of data that are part of the problem?
+
+## 2. Explore the Examples
+- Start with simple examples
+- Try more complex examples
+- Explore examples with empty inputs
+- Explore examples with invalid inputs
+- How should I label the important pieces of data that are part of the problem?
+
+## 3. Break It Down (in Steps)
+Let’s understand it practically:
+
+**Problem:** Write a function which will take a string and return the count of each character in the string.
+
+```js
+function charCount(str) {
+    // Make an object as result to return
+    const result = {};
+
+    // Iterate over the str
+    for (let char of str) {
+        // If the character is not present in result object add it and assign default 1 to it
+        // If the character is already present in result object then increment the value of that character by 1
+        result[char] = result[char] ? result[char] + 1 : 1;
+    }
+
+    // Return the result object
+    return result;
+}
+```
+## 4. Simplify
+-Find the core difficulty
+-Ignore that difficulty for a while
+-Write a simplified solution
+-Work on the difficulty
+
+## 5. Solve
+You did it!
