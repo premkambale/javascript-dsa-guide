@@ -1,4 +1,4 @@
-![Social Preview](https://github.com/premkambale/javascript-dsa-guide/blob/main/javascript-dsa-guide.png)
+![Social Preview](https://github.com/premkambale/javascript-dsa-guide/blob/main/javascript-dsa-guide1.png)
 
 # 📘 DSA Roadmap for JavaScript (2025 Edition)
 
