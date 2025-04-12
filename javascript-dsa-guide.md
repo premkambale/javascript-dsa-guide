@@ -375,4 +375,140 @@ function charCount(str) {
 
 ## 5. Solve
 You did it!
+
+---
+
+# 7️⃣. Problem Solving Patterns
+
+Below are some common problem-solving patterns:
+
+1. Frequency Counter Pattern  
+2. Multiple Pointers  
+3. Sliding Window  
+4. Divide and Conquer  
+5. Dynamic Programming  
+6. Greedy Algorithm  
+7. Backtracking  
+
+---
+
+## 7.1 Frequency Counter Pattern
+
+## 1: Make a function which will take two arrays, and it' will return true if the element from first array, has its square in second array and if not then it should return false.
+
+### Approach 1: With built-in methods
+```js
+const same = (arr1, arr2) => {
+  return arr1.every((item, _) => arr2.some((ele, _) => (item * item) == ele)) && arr1.length == arr2.length;
+}
+
+const result1 = same([1, 2, 5, 4, 4, 9], [25, 1, 81, 16, 9, 4]);
+console.log("Approach 1 - same():", result1); // Output: true
+```
+### Approach 2: Manual frequency logic
+```js
+const hasSquareInSecond = (arr1, arr2) => {
+  let arr1Freq = {}, arr2Freq = {};
+  if (arr1.length !== arr2.length) return false;
+
+  let resultToReturn = true;
+
+  for (let ele of arr1) {
+    arr1Freq[ele] = arr1Freq[ele] ? arr1Freq[ele] + 1 : 1;
+
+    const squaredItemIndex = arr2.indexOf((ele ** 2));
+    if (squaredItemIndex == -1) resultToReturn = false;
+
+    const removed = arr2.splice(squaredItemIndex, 1);
+    arr2Freq[removed] = arr2Freq[removed] ? arr2Freq[removed] + 1 : 1;
+  }
+
+  return { resultToReturn, arr1Freq, arr2Freq };
+}
+
+const result2 = hasSquareInSecond([1, 2, 5, 23, 4, 9], [25, 1, 81, 16, 4]);
+console.log("Approach 2 - hasSquareInSecond():", result2); // Output: false
+```
+### Approach 3: Return frequency & boolean
+```js
+const hasSame = (ar1, ar2) => {
+  if (ar1.length !== ar2.length) return false;
+
+  let ar1Count = {}, ar2Count = {};
+
+  for (item of ar1) {
+    ar1Count[item] = (ar1Count[item] || 0) + 1;
+  }
+
+  for (item of ar2) {
+    ar2Count[item] = (ar2Count[item] || 0) + 1;
+  }
+
+  let resultToReturn = true;
+
+  for (key in ar1Count) {
+    if (!(ar2Count[key * key] in ar2Count)) {
+      resultToReturn = false;
+    }
+  }
+
+  return {
+    isSame: resultToReturn,
+    frequencyOfFirstArray: ar1Count,
+    frequencyOfSecondArray: ar2Count
+  };
+}
+
+const result3 = hasSame([1, 2, 3, 4, 5, 6], [25, 1, 4, 9, 16, 36]);
+console.log("Approach 3 - hasSame():", result3);
+```
+
+## Example 2 :make function which will receive two strings. function should return true if the second string is the anagram of first
+
+### Approach 1: Frequency counter method
+
+```js
+const isAnagram1 = (str1, str2) => {
+  let strFreq1 = {}, strFreq2 = {};
+  if (str1.length !== str2.length) return false;
+
+  for (char of str1) {
+    strFreq1[char] = (strFreq1[char] || 0) + 1;
+  }
+
+  for (char of str2) {
+    strFreq2[char] = (strFreq2[char] || 0) + 1;
+  }
+
+  let resultToReturn = true;
+  for (key in strFreq1) {
+    if (!(key in strFreq2 && strFreq1[key] === strFreq2[key])) {
+      resultToReturn = false;
+    }
+  }
+
+  return resultToReturn;
+}
+
+const result4 = isAnagram1("prem", "mep");
+console.log("Anagram Approach 1 - isAnagram1():", result4); // Output: false
+```
+### Approach 2: Using includes
+```js
+const isAnagram2 = (str1, str2) => {
+  if (str1.length !== str2.length) return false;
+  let result = true;
+
+  for (let i = 0; i < str1.length; i++) {
+    if (!(str2.includes(str1[i]))) {
+      return false;
+    }
+  }
+
+  return result;
+}
+
+const result5 = isAnagram2("prem", "mepr");
+console.log("Anagram Approach 2 - isAnagram2():", result5); // Output: true
+```
 0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣
